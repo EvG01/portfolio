@@ -1,0 +1,32 @@
+/* Slick */
+
+.slick-dots {
+
+    
+    li {
+        width: 15px;
+        height: 15px;
+        border: 1px solid #E0E0E0;
+        border-radius: 50%;
+        margin: 0px 15px;
+
+        & + li {
+
+        }
+
+        &.slick-active {
+            width: 15px;
+            height: 15px;
+            background: #E0E0E0;
+            border-radius: 50%;
+            
+            button {
+                display: none;
+            }
+        }
+
+        button {
+            display: none;
+        }
+    }
+}

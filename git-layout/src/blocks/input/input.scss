@@ -1,0 +1,15 @@
+.input {
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    @include placeholder(#E0E0E0);
+    
+    &--textarea {
+        height: 150px;
+    }
+}

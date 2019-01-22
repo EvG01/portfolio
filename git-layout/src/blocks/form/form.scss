@@ -1,0 +1,41 @@
+.col-lg-4.col-sm-8.mx-auto {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+
+    .form {
+        height: 500px;    
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 95px;
+
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+            max-width: 350px;
+
+            h2.text-center {
+                font-size: 30px;
+            }
+        }    
+        
+        @include media-breakpoint-down(lg) {
+            width: 100%;
+            min-width: 400px;
+        }
+        
+        @include media-breakpoint-down(xl) {
+            width: 100%;
+        }
+    }
+}
+
+
