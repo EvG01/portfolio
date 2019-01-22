@@ -1,0 +1,97 @@
+.container.mt-40.mb-70 {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px !important;
+     
+    .row {
+	    width: 87%;
+        
+        .col-md-12 {
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            justify-content: center;
+            
+            .picture {
+                display: -webkit-flex;
+                display: -moz-flex;
+                display: -ms-flex;
+                display: -o-flex;
+                display: flex;
+                width: 425px;
+                height: 200px;
+            }  
+        }
+    }
+    
+    @include media-breakpoint-down(sm) {
+        
+         .text-center {
+	        font-size: 30px;
+        }
+        
+        .picture {
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            width: 100% !important;
+            height: 170px !important;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        } 
+    }
+    
+    @include media-breakpoint-down(md) {
+        
+        .row {
+	        width: 100%;
+            flex-flow: column nowrap;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+
+        
+    }
+    
+    @include media-breakpoint-down(lg) {
+        margin-bottom: 60px !important;
+        
+         .text-center {
+	        font-size: 30px;
+        }
+        
+        .col-md-12 {
+            margin-bottom: 30px;
+        }
+    }    
+    
+    @include media-breakpoint-down(xl) {
+        
+        .row {
+	        width: 100%;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .col-md-12 {
+            margin-bottom: 30px;
+        }
+    }
+}
