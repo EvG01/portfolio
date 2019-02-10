@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="199" height="38" viewBox="0 0 199 38">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 50px;
+        font-family: Arial;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #787878;
+      }
+    </style>
+  </defs>
+  <text id="PackING" class="cls-1" x="-4" y="37">Pack<tspan class="cls-2">ING</tspan></text>
+</svg>
