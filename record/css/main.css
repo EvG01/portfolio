@@ -2784,7 +2784,6 @@ section {
     }
 }
 
-<<<<<<< HEAD
 .chat-widget {
     position: fixed;
     bottom: 15px;
@@ -2795,5 +2794,3 @@ section {
 .chat-widget span:first-child {
     margin-right: 5px;
 }
-=======
->>>>>>> 6552832c9281b15fc5e6cca8eae3604639d48c96

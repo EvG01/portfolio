@@ -37,10 +37,5 @@
 .owl-carousel .owl-video-tn{opacity:0;height:100%;background-position:center center;background-repeat:no-repeat;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;background-size:contain;-webkit-transition:opacity 400ms ease;-moz-transition:opacity 400ms ease;-ms-transition:opacity 400ms ease;-o-transition:opacity 400ms ease;transition:opacity 400ms ease;}
 .owl-carousel .owl-video-frame{position:relative;z-index:1;}
 .four .owl-carousel .owl-item img {width: auto !important;}
-<<<<<<< HEAD
 .four .owl-carousel .owl-item .col-md-4 {width: 100% !important;}
-=======
-.four .owl-carousel .owl-stage{width: 100% !important;padding: 0 !important;}
-.four .owl-carousel .owl-item.active {max-width: 370px;width: 100% !important;}
-.four .owl-carousel .owl-item.active .col-md-4 {width: 100% !important;}
->>>>>>> 6552832c9281b15fc5e6cca8eae3604639d48c96
+.four .owl-carousel .owl-item .col-md-4 {width: 100% !important;}
