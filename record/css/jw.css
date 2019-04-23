@@ -1,0 +1,41 @@
+.alignCenter {
+	text-align: center;
+	margin: 0 !important;
+	margin-top: 30px !important;
+} 
+.width100 {
+	width: 100% !important;
+}
+
+.flex {
+	display: flex;
+	display: -webkit-flex;
+	display: -o-flex;
+	display: -ms-flex;
+	display: -moz-flex;
+
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.flex .item {
+	width: calc(50% - 25px);
+}
+.flex .item .whatpesna {
+	text-align: center;
+}
+
+.flex .item:nth-child(odd) {
+	margin-right: 25px;
+}
+.flex .item:nth-child(even) {
+	margin-left: 25px;
+}
+
+
+@media screen and (max-width: 700px) {
+	.flex .item {
+		width: 100%;
+	}
+
+}
