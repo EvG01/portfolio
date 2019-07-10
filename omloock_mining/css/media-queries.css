@@ -1,0 +1,563 @@
+@media screen and (max-width: 1440px) {
+	
+	hr.sep {
+		margin: 0 2.083vw;
+		height: 1.823vw;
+	}
+	
+	header > nav .add_block {
+		-webkit-background-size: contain;
+		background-size: contain;
+	}
+	
+	.ref {
+		-webkit-background-size: contain;
+		background-size: contain;
+	}
+	
+	.cards_wrap .card {
+		height: 37.5vw;
+	}
+	
+	button.btn {
+		margin-top: 1.042vw;
+	}
+	
+	.card-title {
+		margin: 1.042vw 0;
+	}
+	
+	.rent .card > p {
+		margin-bottom: 0.521vw;
+	}
+	
+	.cost {
+		padding-bottom: 0.781vw;
+    	margin-bottom: 0.521vw;
+	}
+	
+	.term {
+		padding: 0.521vw 0;
+    	margin-bottom: 0.781vw;
+	}
+	
+	.profit {
+	 	margin-bottom: 0.521vw;
+	}
+	
+	.part-text {
+		margin-bottom: 4.167vw;		
+	}
+	
+	.video, .photo {
+		padding: 8.073vw 10.938vw 6.771vw;
+	}
+	
+	.section_name {
+		margin-bottom: 5.990vw;
+	}	
+	
+	.video button.btn, 
+	.photo button.btn {
+		width: 16.365vw;
+    	height: 2.823vw;
+		font-size: 1.4vw;
+	}
+	
+	.power .content-wrap {
+		margin-bottom: 0.521vw;
+	}
+	
+	.power {
+		padding: 0.521vw 0;
+		margin-bottom: 0.781vw;
+	}
+	
+	form {
+		width: 30vw;
+		height: 45vw;
+		padding: 3.5vw;
+    	padding-bottom: 3vw;
+	}
+	
+	form label input {
+		font-size: 1.2vw;
+	}
+	
+	form .comment {
+		width: 22vw;
+   		height: 22vw;
+		margin: 0.781vw 0;
+		resize: none;
+	}
+	
+	form label {
+		font-size: 1.5vw;
+		margin-bottom: 2.5vw;
+	}
+	
+	form button.btn {
+		height: 4.5vw;
+	}
+	
+	form label input::-webkit-input-placeholder { 
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.2vw;
+	}
+	form label input::-moz-placeholder { 
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.2vw;
+	}
+	form label input:-ms-input-placeholder { 
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.2vw;
+	}
+	form label input:-moz-placeholder { 
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.2vw;
+	}
+	
+	form .comment-title {
+		font-size: 1.5vw;
+	}
+	
+}
+
+@media screen and (max-width: 1024px) {
+	
+	form {
+		width: 28.354vw;
+   		height: 42.771vw;
+	}
+	
+	form {
+		padding: 2.5vw;
+		padding-bottom: 2vw;
+	}
+	
+	.form-title {
+		font-size: 2.1vw;
+	}
+	
+	form label {
+		font-size: 1.5vw;
+	}
+	
+	form label input {
+		font-size: 1vw;
+	}
+	
+	form label input::-webkit-input-placeholder { 
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1vw;
+	}
+	form label input::-moz-placeholder { 
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1vw;
+	}
+	form label input:-ms-input-placeholder { 
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1vw;
+	}
+	form label input:-moz-placeholder { 
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1vw;
+	}
+	
+	form .comment-title {
+		font-size: 1.5vw;
+		color: #D2EBFF;
+	}
+	
+	form .comment {
+		width: 23vw;
+		font-size: 1.3vw;
+	}
+	
+	form button.btn {
+		height: 3.5vw;
+		margin-top: 2vw;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	.header	nav {
+		font-size: 2.2vw;
+	}
+	
+	.header	span {
+		font-size: 2.2vw;
+	}
+	
+	header > span > img {
+		width: 20px;
+	}
+	
+	header > nav .add_block {
+		display: none;
+	}
+	
+	.main .main_links {
+		font-size: 2.5vw;
+	}
+	
+	.main .main-sublinks {
+		font-size: 3.5vw;
+	}
+	
+	.section_name {
+		font-size: 4.5vw;
+	}
+	
+	.cards_wrap {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+	}
+	
+	.cards_wrap .card {
+		width: 55vw;
+		height: 80vw;
+		border-radius: 1.979vw;
+		margin-bottom: 10vw;
+	}
+	
+	.card-title {
+		margin: 2vw 0;
+		    font-size: 2.5vw;
+	}
+	
+	.ref {
+		width: 12vw;
+		height: 7vw;
+		top: 19vw !important;
+	}
+	
+	.ref p {
+		font-size: 1.5vw !important;
+	}
+	
+	.ref span {
+		font-size: 2vw !important;
+	}
+	
+	.slider .arr-r, 
+	.slider .arr-l {
+		width: 2.5vw;
+	} 
+	
+	.power {
+		padding: 1.5vw 0;
+		margin-bottom: 2vw;
+		font-size: 2.3vw;
+	}
+	
+	hr.sep {
+		height: 3vw;
+	}
+	
+	.price {
+		font-size: 4vw !important;
+	}
+	
+	.payment {
+		margin: 2vw 0;
+    	font-size: 2.15vw;
+	}
+	
+	.payment span {
+    	font-size: 2.3vw;
+	}
+	
+	.profit {
+		font-size: 2.2vw;
+	}
+	
+	button.btn {
+    width: 34.365vw;
+    height: 4.823vw;
+    margin-top: 3vw;
+    font-size: 2.3vw;
+}
+	
+	.tip {
+		font-size: 2.1vw !important;
+	}
+	
+	.term {
+		padding: 1vw 0;
+		margin: 0;
+		font-size: 3vw;
+	}
+	
+	.cost {
+		padding-bottom: 2vw;
+		margin-bottom: 2vw;
+	}
+	
+	.cost > p {
+		margin-top: 1vw;
+	}
+	
+	.rent .card > p {
+		font-size: 2.5vw;
+	}
+	
+	.pledge {
+		font-size: 3vw !important;
+	}
+	
+	.profit {
+		margin: 1vw 0;
+	}
+	
+	.about_us .section_name {
+		font-size: 6vw; 
+    	line-height: 3.5vw;
+	}
+	
+	.about_us .points {
+		grid-template-columns: auto;
+		grid-gap: 2vw 0;
+	}
+	
+	.about_us .sect_inf {
+    	margin-bottom: 4.688vw;
+    	font-size: 2.5vw;
+		line-height: 3.5vw;
+	}
+	
+	.about_us .item:nth-child(even),
+	.about_us .item:nth-child(odd) {
+		justify-content: flex-start;
+	}
+	
+	.about_us .item-img {
+		width: 13vw;
+	}
+	
+	.about_us .item {
+		font-size: 2.5vw;
+	}
+	
+	.part_progr {
+		background-position: center center;
+	}
+	
+	.part-text {
+		font-size: 2.5vw;
+	}
+	
+	.part_progr .grid-wrap {
+		margin: 0 auto;
+		grid-template-columns: auto;
+	}
+	
+	.principle .point img, .result .point img {
+		width: 10vw;	
+	}
+	
+	.principle .point p, 
+	.result .point p {
+		font-size: 3vw;
+	}
+	
+	.principle-name,
+	.result-name {
+		font-size: 5vw;
+	}
+	
+	.video .cards_grid, .photo .cards_grid {
+		grid-template-columns: auto auto;
+		margin-bottom: 40px;
+	}
+
+	.video button.btn, .photo button.btn {
+    	width: 30vw;
+    	height: 6vw;
+    	font-size: 2.5vw;
+	}
+	
+	.video_card, .photo_card {
+		width: 33vw;
+		height: 20vw;
+	}
+	
+	.video, .photo {
+		padding: 14.771vw 10.938vw;
+	}
+	
+	.photo {
+		background: url(../img/photo_bg.png) no-repeat center;
+		background-size: cover;
+	}
+	
+	.communications {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	
+	.place_wrap {
+		width: 100%;
+	}
+	
+	.communications_wrap {
+		width: 100%;
+		height: auto;
+		padding-bottom: 4vw;
+	}
+	
+	.communications_wrap .section_name {
+		font-size: 4.083vw;
+	}
+	
+	.communications_wrap ul span {
+		font-size: 3vw;
+	}
+	
+	.communications_wrap ul img {
+		width: 3vw;
+	}
+	
+	footer {
+		width: 100%;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+		padding-bottom: 80px;
+		font-size: 2vw;
+	}
+	
+	footer .links-list {
+		transform: none;
+	}
+	
+	footer > ul:nth-child(2) {
+		margin: 0;
+		margin-bottom: 40px;
+	}
+	
+	form {
+		width: 45vw;
+    	height: 70vw;
+		padding: 3.5vw;
+		padding-bottom: 3vw;
+	}
+	
+	form label {
+		font-size: 2.5vw;
+	}
+	
+	.form-title {
+		margin-bottom: 3vw;
+		font-size: 3vw;
+	}
+	
+	form label input {
+		font-size: 1.8vw;
+	}
+	
+	form label input::-webkit-input-placeholder { 
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.8vw;
+	}
+	form label input::-moz-placeholder { 
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.8vw;
+	}
+	form label input:-ms-input-placeholder { 
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.8vw;
+	}
+	form label input:-moz-placeholder { 
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.8vw;
+	}
+	
+	form .comment-title {
+		font-size: 3vw;
+	}
+	
+	form .comment {
+		width: 37vw;
+		height: 17vw;
+		font-size: 2.2vw;
+	}
+	
+	form label {
+		margin-bottom: 3.5vw;
+	}
+	
+	form button.btn {
+		height: 4.5vw;
+		margin-top: 2vw;
+	}
+	
+}
+
+@media screen and (max-width: 640px) {
+	
+	.main {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		padding: 5vw 0;
+		height: 100%;
+	}
+	
+	.card {
+		width: 50vw !important;
+		height: 80vw !important;
+	}
+	
+	.rent .card {
+		width: 50vw !important;
+		height: 85vw !important;
+	}
+	
+	form {
+		width: 60vw;
+		height: 90vw;
+		padding: 4.5vw;
+		padding-bottom: 4vw;
+	}
+	
+	.form-title {
+		margin-bottom: 5.5vw;
+		font-size: 3.5vw;
+	}
+	
+	form label {
+		font-size: 3vw;
+	}
+	
+	form label input {
+		font-size: 2.5vw;
+	}
+	
+	form label {
+		margin-bottom: 5.5vw;
+	}
+	
+	form .comment {
+		width: 50vw;
+		height: 25vw;
+		font-size: 3vw;
+	}
+	
+}
