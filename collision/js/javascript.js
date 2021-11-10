@@ -1,7 +1,7 @@
 import Object from "./Object.js";
 
 const w = prompt('Ширина НЛО: ', "100");
-const h = prompt('Высока НЛО: ', "100");
+const h = prompt('Высота НЛО: ', "100");
 const count = prompt('Количество: ', "20");
 const speed = prompt('Скорость: ', "2");
 
