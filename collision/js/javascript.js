@@ -2,15 +2,8 @@ import Object from "./Object.js";
 
 const w = prompt('Ширина НЛО: ', "100");
 const h = prompt('Высока НЛО: ', "100");
-const count = prompt('Количество: ', "10");
+const count = prompt('Количество: ', "20");
 const speed = prompt('Скорость: ', "2");
-
-// if ( w == null && h == null && count == null && speed ) {
-//     w = prompt('Ширина НЛО: ', "100");
-//     h = prompt('Высока НЛО: ', "100");
-//     count = prompt('Количество: ', "10");
-//     speed = prompt('Скорость: ', "2");
-// }
 
 const windowWidth = document.documentElement.clientWidth,
     windowHeight = document.documentElement.clientHeight,
