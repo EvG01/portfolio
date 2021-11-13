@@ -75,22 +75,22 @@ export default class Object {
                                 item.top <= this.down && this.down <= item.down;
 
 
-            if ( Math.abs(this.top - item.down) <= 5 &&  leftRight_Check) {
+            if ( Math.abs(this.top - item.down) <= 10 &&  leftRight_Check) {
 
                 this.dy *= -1;
             }
 
-            if ( Math.abs(this.right - item.left) <= 5 && topDown_Check) {
+            if ( Math.abs(this.right - item.left) <= 10 && topDown_Check) {
 
                 this.dx *= -1;
             }
 
-            if ( Math.abs(this.down - item.top) <= 5 && leftRight_Check) {
+            if ( Math.abs(this.down - item.top) <= 10 && leftRight_Check) {
 
                 this.dy *= -1;
             }
 
-            if ( Math.abs(this.left - item.right) <= 5 && topDown_Check) {
+            if ( Math.abs(this.left - item.right) <= 10 && topDown_Check) {
                 this.dx *= -1;
             }
         }
