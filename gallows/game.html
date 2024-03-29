@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallows</title>
+    <link rel="stylesheet" href="game.style.css">
+</head>
+<body>
+    <h1>Guess the word</h1>
+    <div class="letters-container" id="letters-container"></div>
+
+    <form id="form">
+        <input type="text" name="letter" id="letter">
+        <input type="submit" value="Check">
+    </form>
+
+    <span class="tip">
+        Type a letter and press "Enter" or click on the button
+    </span>
+
+    <dialog id="gameOverPopUp">
+        <h1>Game Over!</h1>
+
+        <div class="buttons">
+            <a href="index.html">
+                <button>
+                    Menu
+                </button>
+            </a>
+            <button id="again">Again</button>
+        </div>
+
+        <div>
+            Was the word <br>
+            <span id="word" class="word"></span>
+        </div>
+    </dialog>
+
+    <dialog id="winPopUp">
+        <h1>You Win!</h1>
+
+        <div class="buttons">
+            <a href="index.html">
+                <button>
+                    Menu
+                </button>
+            </a>
+            <button id="again">Again</button>
+        </div>
+
+        <div>
+            Was the word <br>
+            <span id="word" class="word"></span>
+        </div>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+</html>
