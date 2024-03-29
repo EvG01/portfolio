@@ -27,7 +27,6 @@ async function getRandomWordPromise() {
     const request = await fetch( 'https://random-word-api.herokuapp.com/word?length=10' ).then( response => response.json() );
 
     let [word] = request;
-    console.log(word);
     return word;
 }
 
