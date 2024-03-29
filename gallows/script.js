@@ -5,19 +5,6 @@ const form             = document.querySelector( '#form' ),
       againButtons     = document.querySelectorAll( 'dialog #again' ),
       wordContainers   = document.querySelectorAll( 'dialog #word' );
 
-const words = [
-    'sunshine',
-    'butterfly',
-    'adventure',
-    'harmony',
-    'serendipity',
-    'radiant',
-    'tranquility',
-    'whimsical',
-    'enchantment',
-    'blissful'
-];
-
 const urlParams = new URLSearchParams(window.location.search);
 
 let hp = urlParams.get('hp');
@@ -26,7 +13,7 @@ const indicatorStep = 255 / hp;
 let gColor, bColor;
 gColor = bColor = 255;
 
-const currentWord = getRandomWord();
+let randomWord = null; 
 
 function showGameOver() {
     gameOverPopUp.classList.add( 'active' );
@@ -36,10 +23,12 @@ function showWin() {
     winPopUp.classList.add( 'active' );
 }
 
-function getRandomWord() {
-    const randomIndex = Math.floor( Math.random() * words.length );
+async function getRandomWordPromise() {
+    const request = await fetch( 'https://random-word-api.herokuapp.com/word?length=10' ).then( response => response.json() );
 
-    return words[ randomIndex ];
+    let [word] = request;
+    console.log(word);
+    return word;
 }
 
 function AddLetterCells( word, container ) {
@@ -67,9 +56,16 @@ function subtractAttempt() {
     updateHPIndicator();
 }
 
-const randomWord = getRandomWord();
+getRandomWordPromise()
+    .then( word => {
+        randomWord = word;
+        console.log( randomWord );
+        
+        AddLetterCells( randomWord, lettersContainer );
+        
+        wordContainers.forEach( container => container.textContent = randomWord );
+    });
 
-AddLetterCells( randomWord, lettersContainer );
 
 form.onsubmit = event => {
     event.preventDefault();
@@ -96,7 +92,4 @@ form.onsubmit = event => {
 
 againButtons.forEach( button => {
     button.onclick = event => window.location.reload();
-
  });
-
-wordContainers.forEach( container => container.textContent = randomWord );
